@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Portanto, irmãos, peço, pelas misericórdia de Deus, que ofereçam o corpo de voce~es como sacrifício vivo, santo e agradável a Deus: este é o culto racional de vocês.!</Text>
+      <Text>Romanos 12:1</Text>
+      <Text>Versículo do Dia </Text>
       <StatusBar style="auto" />
     </View>
   );
