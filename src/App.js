@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 import CardUser from './components/CardUser';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <View style={styles.box}>
         <Image style={styles.logo}
           source={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubR20yAwHLOdRMuvx9IgNQ6DUwIWw1c5pa_SJc1e4tA&s'} />
@@ -35,7 +35,7 @@ export default function App() {
 
       <StatusBar style="auto" />
 
-    </View>
+    </ScrollView>
   );
 }
 
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
 
   box2: {
-    flex: 5,
+    width: '100%',
     backgroundColor: 'green',
 
   },
