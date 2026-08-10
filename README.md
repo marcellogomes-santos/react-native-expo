@@ -48,6 +48,6 @@ R: Não. Mas possui as principais, já que o foco é mobile.
 Não. O StyleSheet do React Native possui muitas propriedades semelhantes ao CSS, mas não todas. Algumas propriedades da Web não são suportadas.
 
 Todos as propriedades do StyleSheet funcionam para IOs e Android?
-R: Não. Algumas propriedades são específicas para IOS e ouutras para Android, mas a maioria funciona para os dois sistemas.
+R: Não. Algumas propriedades são específicas para IOS e outras para Android, mas a maioria funciona para os dois sistemas.
 Não. A maioria funciona nos dois sistemas, mas algumas propriedades são exclusivas ou se comportam de forma diferente no iOS e no Android.
 
