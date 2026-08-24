@@ -1,14 +1,14 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function CardUser({ bolo, name, email }) {
+export default function CardUser({ image, name, signature }) {
     return (
         <View style={styles.card}>
 
-            <Image style={styles.bolo} source={bolo} />
+            <Image style={styles.bolo} source={image} />
 
             <View>
                 <Text style={styles.name}>{name}</Text>
-                <Text style={styles.email}>{email}</Text>
+                <Text style={styles.signature}>{signature}</Text>
             </View>
 
         </View>
@@ -19,7 +19,7 @@ export default function CardUser({ bolo, name, email }) {
 const styles = StyleSheet.create({
     card: {
 
-        flexDirection: 'row',
+        flexDirection: 'column',
         margin: 10,
         borderRadius: 20,
         borderColor: 'black',

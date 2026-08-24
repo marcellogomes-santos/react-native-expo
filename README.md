@@ -51,3 +51,31 @@ Todos as propriedades do StyleSheet funcionam para IOs e Android?
 R: Não. Algumas propriedades são específicas para IOS e outras para Android, mas a maioria funciona para os dois sistemas.
 Não. A maioria funciona nos dois sistemas, mas algumas propriedades são exclusivas ou se comportam de forma diferente no iOS e no Android.
 
+Quais as pricipais formas de navegação com Expor Router?
+- Stack
+-Tabs
+- Drawer 
+-Modal
+As principais formas de navegação com Expo Router são:
+
+Stack: organiza as telas em uma sequência. É como entrar em uma tela e depois poder voltar para a anterior.
+Tabs: cria uma navegação por abas, geralmente na parte inferior do aplicativo. É muito usada para separar áreas como Início, Perfil e Configurações.
+Drawer: cria um menu lateral que pode ser aberto deslizando ou clicando em um botão.
+Modal: abre uma tela sobre a tela atual, geralmente para mostrar uma informação, formulário ou confirmação.
+
+Resumindo: o Expo Router oferece diferentes formas de organizar a navegação, e cada uma pode ser usada de acordo com a necessidade do aplicativo.
+
+### Instalação do Expo
+npx cerate-expo-app@latest -- template
+ - Blank
+ - nome do app
+ - for learning with expo go (SDK 54 ) **mais estável do q a versão 57**
+
+ ### Instalação do Expo Router
+
+- https://docs.expo.dev/router/installation/
+
+ - Fazer as etapas 1, 2, 3
+ - Criar pastra app dentro de scr
+- Colocar a tela inicial ( componentes ) dentro da pasta app ( index.js )   
+- Rodar a etapa 6 (npx expo start --clear)
